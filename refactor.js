@@ -85,6 +85,13 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
+// [c] becauset the code runs asynchornously and
+// "z" gets exectued first then when the function
+// in setTimeout is run.  Letter "z" is executed
+// instead of "x" because the value of letter
+// changed before it was logged.  Letter "y" is
+// logged because it is the last letter value
+// before we log letter.
 
 // -----------------------------------------------
 
