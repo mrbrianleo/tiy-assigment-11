@@ -159,6 +159,13 @@ var myColors = {
   "negro": "#000000"
 };
 
+var spanishColor = function(colorName) {
+  return myColors[colorName];
+};
+
+// var colorName = "rojo"
+// myColors[colorName]  => "#ff0000"
+
 // var spanishColor = function(colors) {
 //   colors.forEach(function(color) {
 //   });
