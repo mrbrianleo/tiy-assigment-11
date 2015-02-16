@@ -213,9 +213,8 @@ var callTenTimes = function(callback) {
 
 // Put your answer below -------------------------
 
-
-var callNTimes = function(callback) {
-  var range = _.range(10);
+var callNTimes = function(callback, n) {
+  var range = _.range(n);
   _.each(range, callback);
 };
 
@@ -246,7 +245,7 @@ var decreaseScore = function() {
 
 // Put your answer below -------------------------
 
-(function() {
+var totalScore = function() {
   var score = 0;
 
   var increaseScore = function() {
@@ -256,7 +255,7 @@ var decreaseScore = function() {
   var decreaseScore = function() {
     score--;
   };
-})();
+};
 
 totalScore();
 
