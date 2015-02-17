@@ -307,6 +307,18 @@ var accelerate = function(amount) {
 
 // Put your answer below -------------------------
 
+// If you call the function without specifying a
+// parameter when it is expecting one, the param 
+// is undefined so 0 + undefined = NaN.
+
+var speed = 0;
+
+var accelerate = function(amount) {
+  if(amount === undefined) {
+    amount = 1;
+  }
+  return speed += amount;
+};
 
 // -----------------------------------------------
 
