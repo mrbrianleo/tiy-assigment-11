@@ -245,7 +245,7 @@ var decreaseScore = function() {
 
 // Put your answer below -------------------------
 
-var totalScore = function() {
+(function() {
   var score = 0;
 
   var increaseScore = function() {
@@ -255,9 +255,8 @@ var totalScore = function() {
   var decreaseScore = function() {
     score--;
   };
-};
+})();
 
-totalScore();
 
 // -----------------------------------------------
 
